@@ -79,7 +79,7 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 if not on_rtd:
     html_context = {
         "display_github": True,              # Integrate GitHub
-        "github_user": "google",             # Username
+        "github_user": "fossi-foundation",   # Username
         "github_repo": "gf180mcu-pdk",       # Repo name
         "github_version": "main",            # Version
         "conf_py_path": "/docs/",
@@ -155,7 +155,7 @@ html_theme_options = {
     'color_accent': 'teal',
 
     # Set the repo location to get a badge with stats
-    'github_url': 'https://github.com/google/gf180mcu-pdk',
+    'github_url': 'https://github.com/fossi-foundation/gf180mcu-pdk',
     'repo_name': 'gf180mcu-pdk',
     'repo_type': 'github',
 
